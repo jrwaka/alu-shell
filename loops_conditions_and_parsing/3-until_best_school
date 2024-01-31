@@ -4,5 +4,5 @@ a=0
 until [ $a -eq 10]
 do
 echo "Best School"
-((a ++))
+(( a ++ ))
 done
