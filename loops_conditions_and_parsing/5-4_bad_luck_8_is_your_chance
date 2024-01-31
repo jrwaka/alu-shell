@@ -2,14 +2,15 @@
 #Displays bad luck on 4th loop iteration
 #Displays good luck on 8th loop iteration
 #Displays Best School for other iterations
-loop=1
+
+loop=0
 while
 	[ $loop lt -10]
 do
-	if [ $loop eq -4 ]
+	if [ $loop eq -3 ]
 	then
 		echo "bad luck"
-	elif [ $loop eq -8 ]
+	elif [ $loop eq -7 ]
 	then
 		echo "good luck"
 	else
